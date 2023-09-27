@@ -1,0 +1,49 @@
+.navbar {
+    background-color: #fbe3e3bb;
+    height: 99px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 390px;
+  }
+  
+  .burger-menu {
+    height: 18px;
+    left: 336px;
+    position: absolute;
+    top: 40px;
+    width: 36px;
+  }
+  
+  .line-3 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: -4px;
+    width: 36px;
+  }
+  
+  .line-4 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 36px;
+  }
+  
+  .line-5 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    width: 36px;
+  }
+  
+  .logo-2 {
+    height: 76px;
+    left: 82px;
+    position: absolute;
+    top: 23px;
+    width: 215px;
+  }
+  

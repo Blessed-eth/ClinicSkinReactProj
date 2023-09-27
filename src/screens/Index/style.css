@@ -1,0 +1,1062 @@
+.index {
+    background-color: #fff1f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .index .div {
+    background-color: #fff1f1;
+    position: relative;
+  }
+  
+  .index .hero-seccion {
+    background-color: #d9d9d9;
+    height: 657px;
+    left: 0;
+    position: absolute;
+    top: 99px;
+    width: 768px;
+  }
+  
+  .index .seccion-bio {
+    height: 265px;
+    left: 108px;
+    position: absolute;
+    top: 851px;
+    width: 548px;
+  }
+  
+  .index .bio {
+    color: #000000;
+    font-family: "Cormorant", Helvetica;
+    font-size: 22px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 33px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 546px;
+  }
+  
+  .index .seccion-main-menu {
+    height: 556px;
+    left: 55px;
+    position: absolute;
+    top: 1319px;
+    width: 666px;
+  }
+  
+  .index .screen-shot {
+    height: 212px;
+    left: 39px;
+    object-fit: cover;
+    position: absolute;
+    top: 344px;
+    width: 218px;
+  }
+  
+  .index .skincare-beauty {
+    height: 224px;
+    left: 40px;
+    position: absolute;
+    top: 44px;
+    width: 229px;
+  }
+  
+  .index .text-wrapper {
+    color: #000000;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 315px;
+  }
+  
+  .index .text-wrapper-2 {
+    color: #000000;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 314px;
+    white-space: nowrap;
+    width: 315px;
+  }
+  
+  .index .text-wrapper-3 {
+    color: #000000;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 339px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    width: 315px;
+  }
+  
+  .index .text-wrapper-4 {
+    color: #000000;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 343px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 304px;
+    width: 315px;
+  }
+  
+  .index .img {
+    height: 211px;
+    left: 378px;
+    object-fit: cover;
+    position: absolute;
+    top: 45px;
+    width: 218px;
+  }
+  
+  .index .screen-shot-2 {
+    height: 212px;
+    left: 378px;
+    object-fit: cover;
+    position: absolute;
+    top: 344px;
+    width: 219px;
+  }
+  
+  .index .overlap {
+    background-image: url(https://cdn.animaapp.com/projects/651222ca99e788c82beaef8e/releases/6512fd800412bc20f81e7646/img/p-1.png);
+    background-size: 100% 100%;
+    height: 478px;
+    left: 0;
+    position: absolute;
+    top: 2026px;
+    width: 768px;
+  }
+  
+  .index .screen-shot-3 {
+    height: 366px;
+    left: 121px;
+    position: absolute;
+    top: 44px;
+    width: 579px;
+  }
+  
+  .index .p {
+    color: #000000;
+    font-family: "Cormorant", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 115px;
+    letter-spacing: 0;
+    line-height: 45px;
+    position: absolute;
+    text-align: center;
+    top: 2534px;
+    width: 565px;
+  }
+  
+  .index .seccion-agendar {
+    height: 257px;
+    left: 99px;
+    position: absolute;
+    top: 2690px;
+    width: 589px;
+  }
+  
+  .index .CTA {
+    height: 257px;
+    left: 324px;
+    position: absolute;
+    top: 0;
+    width: 267px;
+  }
+  
+  .index .text-wrapper-5 {
+    color: #000000;
+    font-family: "Cormorant", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 12px;
+    position: absolute;
+    top: 129px;
+    width: 265px;
+  }
+  
+  .index .botones {
+    height: 112px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 265px;
+  }
+  
+  .index .iniciar-sesion {
+    box-shadow: 4px 4px 4px #00000040;
+    height: 51px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 265px;
+  }
+  
+  .index .group {
+    height: 51px;
+    width: 267px;
+  }
+  
+  .index .overlap-group {
+    background-color: #fdf1f1;
+    height: 51px;
+    position: relative;
+    width: 265px;
+  }
+  
+  .index .text-wrapper-6 {
+    color: #000000;
+    font-family: "Cormorant", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 67px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    width: 133px;
+  }
+  
+  .index .reservar {
+    height: 59px;
+    left: 0;
+    position: absolute;
+    top: 61px;
+    width: 273px;
+  }
+  
+  .index .terms-checkbox {
+    height: 13px;
+    left: 0;
+    position: absolute;
+    top: 173px;
+    width: 166px;
+  }
+  
+  .index .text-wrapper-7 {
+    color: #000000;
+    font-family: "Cormorant", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 142px;
+  }
+  
+  .index .rectangle {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 3px;
+    height: 13px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 14px;
+  }
+  
+  .index .recapthcha {
+    height: 54px;
+    left: 22px;
+    object-fit: cover;
+    position: absolute;
+    top: 203px;
+    width: 205px;
+  }
+  
+  .index .calendar {
+    height: 213px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 220px;
+  }
+  
+  .index .footer {
+    background-color: #cc9b9a;
+    left: 0;
+    position: absolute;
+  }
+  
+  .index .copyright {
+    position: absolute;
+  }
+  
+  .index .overlap-group-2 {
+    position: relative;
+  }
+  
+  .index .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-weight: 300;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .index .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .index .social-media {
+    position: absolute;
+  }
+  
+  .index .footer-servicios {
+    position: absolute;
+  }
+  
+  .index .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 148px;
+  }
+  
+  .index .text-wrapper-11 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 19px;
+    width: 148px;
+  }
+  
+  .index .text-wrapper-12 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 42px;
+    width: 149px;
+  }
+  
+  .index .overlap-2 {
+    left: 0;
+    position: absolute;
+  }
+  
+  .index .text-wrapper-13 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 149px;
+  }
+  
+  .index .text-wrapper-14 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 19px;
+    width: 108px;
+  }
+  
+  .index .footer-menu {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+  .index .text-wrapper-15 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .index .text-wrapper-16 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+  }
+  
+  .index .overlap-group-3 {
+    left: 0;
+    position: absolute;
+  }
+  
+  .index .text-wrapper-17 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .index .text-wrapper-18 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+  }
+  
+  .index .text-wrapper-19 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+  }
+  
+  .index .visa-master {
+    position: absolute;
+  }
+  
+  .index .line {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+  }
+  
+  .index .text-wrapper-20 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .index .line-2 {
+    height: 1px;
+    left: 260px;
+    object-fit: cover;
+    position: absolute;
+    top: 59px;
+    width: 101px;
+  }
+  
+  .index .address {
+    position: absolute;
+  }
+  
+  .index .ohiggins-segundo {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .index .ohiggins-segundo-wrapper {
+    height: 87px;
+    left: 27px;
+    position: absolute;
+    top: 74px;
+    width: 104px;
+  }
+  
+  .index .ohiggins-segundo-2 {
+    color: #ffffff;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 11.8px;
+    font-weight: 300;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    top: 0;
+    width: 102px;
+  }
+  
+  .index .logo {
+    position: absolute;
+  }
+  
+  .index .navbar {
+    background-color: #fbe3e3bb;
+    height: 99px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+  }
+  
+  .index .logo-2 {
+    height: 76px;
+    left: 31px;
+    position: absolute;
+    top: 20px;
+    width: 172px;
+  }
+  
+  .index .burger-menu {
+    height: 18px;
+    left: 689px;
+    position: absolute;
+    top: 40px;
+    width: 29px;
+  }
+  
+  .index .line-3 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: -4px;
+    width: 29px;
+  }
+  
+  .index .line-4 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 29px;
+  }
+  
+  .index .line-5 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    width: 29px;
+  }
+  
+  .index .group-2 {
+    height: 257px;
+    left: 705px;
+    position: absolute;
+    top: 2813px;
+    width: 267px;
+  }
+  
+  .index .calendar-2 {
+    object-fit: cover;
+    position: absolute;
+  }
+  
+  .index .overlap-3 {
+    height: 769px;
+    left: -35px;
+    position: absolute;
+    top: 1927px;
+    width: 1160px;
+  }
+  
+  .index .text-wrapper-21 {
+    color: #000000;
+    font-family: "Cormorant", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 332px;
+    letter-spacing: 0;
+    line-height: 45px;
+    position: absolute;
+    text-align: center;
+    top: 713px;
+    width: 565px;
+  }
+  
+  .index .p-wrapper {
+    height: 722px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1160px;
+  }
+  
+  .index .p-2 {
+    height: 722px;
+    left: 35px;
+    position: absolute;
+    top: 0;
+    width: 1125px;
+  }
+  
+  .index .screen-shot-4 {
+    height: 529px;
+    left: 197px;
+    position: absolute;
+    top: 126px;
+    width: 836px;
+  }
+  
+  .index .main-menu {
+    height: 683px;
+    left: 229px;
+    position: absolute;
+    top: 1138px;
+    width: 816px;
+  }
+  
+  .index .screen-shot-5 {
+    height: 261px;
+    left: 48px;
+    object-fit: cover;
+    position: absolute;
+    top: 422px;
+    width: 268px;
+  }
+  
+  .index .skincare-beauty-2 {
+    height: 273px;
+    left: 50px;
+    position: absolute;
+    top: 55px;
+    width: 279px;
+  }
+  
+  .index .text-wrapper-22 {
+    color: #000000;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 387px;
+  }
+  
+  .index .text-wrapper-23 {
+    color: #000000;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 386px;
+    width: 387px;
+  }
+  
+  .index .text-wrapper-24 {
+    color: #000000;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 416px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    width: 387px;
+  }
+  
+  .index .text-wrapper-25 {
+    color: #000000;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 421px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 374px;
+    width: 387px;
+  }
+  
+  .index .screen-shot-6 {
+    height: 259px;
+    left: 464px;
+    object-fit: cover;
+    position: absolute;
+    top: 56px;
+    width: 268px;
+  }
+  
+  .index .screen-shot-7 {
+    height: 261px;
+    left: 464px;
+    object-fit: cover;
+    position: absolute;
+    top: 422px;
+    width: 269px;
+  }
+  
+  .index .vive-una-experiencia {
+    color: #000000;
+    font-family: "Cormorant", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+  }
+  
+  .index .rectangle-2 {
+    background-color: #d9d9d9;
+    height: 657px;
+    left: 0;
+    position: absolute;
+    top: 99px;
+    width: 1280px;
+  }
+  
+  .index .navbar-2 {
+    background-color: #fbe3e3bb;
+    height: 99px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1280px;
+  }
+  
+  .index .burger-menu-2 {
+    height: 18px;
+    left: 1153px;
+    position: absolute;
+    top: 40px;
+    width: 36px;
+  }
+  
+  .index .line-6 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: -4px;
+    width: 36px;
+  }
+  
+  .index .line-7 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 36px;
+  }
+  
+  .index .line-8 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    width: 36px;
+  }
+  
+  .index .logo-3 {
+    height: 76px;
+    left: 39px;
+    position: absolute;
+    top: 20px;
+    width: 215px;
+  }
+  
+  .index .screen-shot-8 {
+    height: 250px;
+    left: 0;
+    position: absolute;
+    top: 2411px;
+    width: 390px;
+  }
+  
+  .index .main-menu-2 {
+    height: 1174px;
+    left: 32px;
+    position: absolute;
+    top: 1198px;
+    width: 327px;
+  }
+  
+  .index .screen-shot-9 {
+    height: 210px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 340px;
+    width: 216px;
+  }
+  
+  .index .skincare-beauty-3 {
+    height: 222px;
+    left: 47px;
+    position: absolute;
+    top: 44px;
+    width: 227px;
+  }
+  
+  .index .text-wrapper-26 {
+    color: #000000;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 312px;
+  }
+  
+  .index .text-wrapper-27 {
+    color: #000000;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 311px;
+    white-space: nowrap;
+    width: 312px;
+  }
+  
+  .index .text-wrapper-28 {
+    color: #000000;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 603px;
+    white-space: nowrap;
+    width: 312px;
+  }
+  
+  .index .text-wrapper-29 {
+    color: #000000;
+    font-family: "Josefin Sans", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 905px;
+    white-space: nowrap;
+    width: 312px;
+  }
+  
+  .index .screen-shot-10 {
+    height: 209px;
+    left: 47px;
+    object-fit: cover;
+    position: absolute;
+    top: 633px;
+    width: 216px;
+  }
+  
+  .index .screen-shot-11 {
+    height: 210px;
+    left: 47px;
+    object-fit: cover;
+    position: absolute;
+    top: 964px;
+    width: 217px;
+  }
+  
+  .index .line-9 {
+    height: 1px;
+    left: 57px;
+    object-fit: cover;
+    position: absolute;
+    top: 1151px;
+    width: 276px;
+  }
+  
+  .index .bio-2 {
+    color: #000000;
+    font-family: "Cormorant", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 800px;
+    width: 324px;
+  }
+  
+  .index .hero-slider {
+    height: 650px;
+    left: -122px;
+    position: absolute;
+    top: 99px;
+    width: 667px;
+  }
+  
+  .index .group-wrapper {
+    background-image: url(https://cdn.animaapp.com/projects/651222ca99e788c82beaef8e/releases/6512fd800412bc20f81e7646/img/pexels-kristina-paukshtite-704815-1.png);
+    background-size: 100% 100%;
+    height: 650px;
+    left: 122px;
+    position: relative;
+    width: 390px;
+  }
+  
+  .index .group-3 {
+    height: 14px;
+    left: 143px;
+    position: relative;
+    top: 614px;
+    width: 105px;
+  }
+  
+  .index .ellipse {
+    background-color: #ffffff;
+    border-radius: 6.8px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 14px;
+  }
+  
+  .index .ellipse-2 {
+    background-color: #646464;
+    border-radius: 6.8px;
+    height: 14px;
+    left: 46px;
+    position: absolute;
+    top: 0;
+    width: 14px;
+  }
+  
+  .index .ellipse-3 {
+    background-color: #ffffff;
+    border-radius: 6.8px;
+    height: 14px;
+    left: 92px;
+    position: absolute;
+    top: 0;
+    width: 14px;
+  }
+  
+  .index .whatsapp-fixed {
+    height: 71px;
+    left: 285px;
+    object-fit: cover;
+    position: fixed;
+    top: 1116px;
+    width: 71px;
+  }
+  
+  .index .navbar-3 {
+    background-color: #fbe3e3bb;
+    height: 99px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 390px;
+  }
+  
+  .index .burger-menu-3 {
+    height: 18px;
+    left: 336px;
+    position: absolute;
+    top: 40px;
+    width: 36px;
+  }
+  
+  .index .logo-4 {
+    height: 76px;
+    left: 82px;
+    position: absolute;
+    top: 23px;
+    width: 215px;
+  }
+  

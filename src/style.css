@@ -1,0 +1,495 @@
+.i-phone {
+    background-color: #fff1f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .i-phone .div {
+    background-color: #fff1f1;
+    height: 3819px;
+    overflow: hidden;
+    position: relative;
+    width: 390px;
+  }
+  
+  .i-phone .footer {
+    background-color: #cc9b9a;
+    height: 233px;
+    left: 0;
+    position: absolute;
+    top: 3586px;
+    width: 390px;
+  }
+  
+  .i-phone .copyright {
+    height: 14px;
+    left: 88px;
+    position: absolute;
+    top: 216px;
+    width: 234px;
+  }
+  
+  .i-phone .overlap-group {
+    height: 14px;
+    position: relative;
+    width: 230px;
+  }
+  
+  .i-phone .text-wrapper {
+    color: #ffffff;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-size: 8px;
+    font-weight: 300;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 124px;
+  }
+  
+  .i-phone .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-size: 8px;
+    font-weight: 300;
+    left: 121px;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 109px;
+  }
+  
+  .i-phone .social-media {
+    height: 14px;
+    left: 153px;
+    position: absolute;
+    top: 195px;
+    width: 98px;
+  }
+  
+  .i-phone .footer-menu {
+    height: 87px;
+    left: 212px;
+    position: absolute;
+    top: 74px;
+    width: 159px;
+  }
+  
+  .i-phone .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 148px;
+  }
+  
+  .i-phone .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 19px;
+    width: 148px;
+  }
+  
+  .i-phone .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 42px;
+    width: 149px;
+  }
+  
+  .i-phone .overlap {
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 59px;
+    width: 149px;
+  }
+  
+  .i-phone .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 149px;
+  }
+  
+  .i-phone .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 19px;
+    width: 108px;
+  }
+  
+  .i-phone .line {
+    height: 1px;
+    left: 260px;
+    object-fit: cover;
+    position: absolute;
+    top: 59px;
+    width: 101px;
+  }
+  
+  .i-phone .footer-servicios {
+    height: 14px;
+    left: 310px;
+    position: absolute;
+    top: 33px;
+    width: 49px;
+  }
+  
+  .i-phone .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 47px;
+  }
+  
+  .i-phone .address {
+    height: 87px;
+    left: 27px;
+    position: absolute;
+    top: 74px;
+    width: 104px;
+  }
+  
+  .i-phone .ohiggins-segundo {
+    color: #ffffff;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-size: 11.8px;
+    font-weight: 300;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    top: 0;
+    width: 102px;
+  }
+  
+  .i-phone .logo {
+    height: 40px;
+    left: 27px;
+    position: absolute;
+    top: 20px;
+    width: 122px;
+  }
+  
+  .i-phone .calendar {
+    height: 327px;
+    left: 16px;
+    object-fit: cover;
+    position: absolute;
+    top: 2786px;
+    width: 353px;
+  }
+  
+  .i-phone .p {
+    color: #000000;
+    font-family: "Cormorant-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: 45px;
+    position: absolute;
+    text-align: center;
+    top: 2683px;
+    width: 324px;
+  }
+  
+  .i-phone .screen-shot {
+    height: 250px;
+    left: 0;
+    position: absolute;
+    top: 2411px;
+    width: 390px;
+  }
+  
+  .i-phone .main-menu {
+    height: 1174px;
+    left: 32px;
+    opacity: 0;
+    position: absolute;
+    top: 1198px;
+    width: 327px;
+  }
+  
+  .i-phone .img {
+    height: 222px;
+    left: 46px;
+    object-fit: cover;
+    position: absolute;
+    top: 340px;
+    transition: all 0.2s ease;
+    width: 228px;
+  }
+  
+  .i-phone .skincare-beauty {
+    height: 222px;
+    left: 47px;
+    position: absolute;
+    top: 44px;
+    transition: all 0.2s ease;
+    width: 227px;
+  }
+  
+  .i-phone .text-wrapper-9 {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 312px;
+  }
+  
+  .i-phone .text-wrapper-10 {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 311px;
+    white-space: nowrap;
+    width: 312px;
+  }
+  
+  .i-phone .text-wrapper-11 {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 603px;
+    white-space: nowrap;
+    width: 312px;
+  }
+  
+  .i-phone .text-wrapper-12 {
+    color: #000000;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 905px;
+    white-space: nowrap;
+    width: 312px;
+  }
+  
+  .i-phone .screen-shot-2 {
+    height: 221px;
+    left: 47px;
+    object-fit: cover;
+    position: absolute;
+    top: 633px;
+    transition: all 0.2s ease;
+    width: 228px;
+  }
+  
+  .i-phone .screen-shot-3 {
+    height: 222px;
+    left: 47px;
+    object-fit: cover;
+    position: absolute;
+    top: 964px;
+    transition: all 0.2s ease;
+    width: 229px;
+  }
+  
+  .i-phone .line-2 {
+    height: 1px;
+    left: 57px;
+    object-fit: cover;
+    position: absolute;
+    top: 1151px;
+    width: 276px;
+  }
+  
+  .i-phone .bio {
+    color: #000000;
+    font-family: "Cormorant-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 800px;
+    width: 324px;
+  }
+  
+  .i-phone .hero-slider {
+    height: 650px;
+    left: -122px;
+    position: absolute;
+    top: 99px;
+    width: 667px;
+  }
+  
+  .i-phone .group-wrapper {
+    background-image: url(../assets/pexels-kristina-paukshtite-704815.webp);
+    background-size: 100% 100%;
+    height: 650px;
+    left: 122px;
+    position: relative;
+    width: 390px;
+  }
+  
+  .i-phone .group {
+    height: 14px;
+    left: 143px;
+    position: relative;
+    top: 614px;
+    width: 105px;
+  }
+  
+  .i-phone .ellipse {
+    background-color: #ffffff;
+    border-radius: 6.8px;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 14px;
+  }
+  
+  .i-phone .ellipse-2 {
+    background-color: #646464;
+    border-radius: 6.8px;
+    height: 14px;
+    left: 46px;
+    position: absolute;
+    top: 0;
+    width: 14px;
+  }
+  
+  .i-phone .ellipse-3 {
+    background-color: #ffffff;
+    border-radius: 6.8px;
+    height: 14px;
+    left: 92px;
+    position: absolute;
+    top: 0;
+    width: 14px;
+  }
+  
+  .i-phone .whatsapp-fixed {
+    height: 71px;
+    left: 285px;
+    object-fit: cover;
+    position: fixed;
+    top: 1116px;
+    width: 71px;
+  }
+  
+  .i-phone .navbar {
+    background-color: #fbe3e3bb;
+    height: 99px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 390px;
+  }
+  
+  .i-phone .burger-menu {
+    height: 18px;
+    left: 336px;
+    position: absolute;
+    top: 40px;
+    width: 36px;
+  }
+  
+  .i-phone .line-3 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: -4px;
+    width: 36px;
+  }
+  
+  .i-phone .line-4 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 36px;
+  }
+  
+  .i-phone .line-5 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    width: 36px;
+  }
+  
+  .i-phone .logo-2 {
+    height: 76px;
+    left: 82px;
+    position: absolute;
+    top: 23px;
+    width: 215px;
+  }
+  
