@@ -1,0 +1,220 @@
+   .footer {
+    background-color: #cc9b9a;
+    height: 210px;
+    left: 0;
+    position: absolute;
+    top: 2500px;
+    bottom: 0;
+    width: 100%;
+  
+  }
+  
+  .copyright {
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    width: 300px;
+    left: 0; /* Reset the left position */
+    right: 0; /* Reset the right position */
+    margin-left: auto; /* Center horizontally using auto margin */
+    margin-right: auto; /* Center horizontally using auto margin */
+  }
+  
+  .rights {
+    color: #ffffff;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-size: 8px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    white-space: nowrap;
+    width: 140px;
+  }
+  
+  .social-media-icons {
+    height: 50px;
+    left: 40px;
+    position: relative;
+    top: 90px;
+    width: 200px;
+    overflow: hidden;
+  }
+
+   .social-media-icons a {
+    width: 20px;
+    width: 30px;
+  }
+
+  .social-media-icon {
+    width: 20px;
+    margin: 0 10px;
+    left: 10%;
+    position: relative;
+    width: 30px;
+    flex: wrap;
+  }
+  
+  .footer-menu {
+    height: 87px;
+    right: 80px;
+    position: absolute;
+    top: 90px;
+    width: 159px;
+  }
+  
+  .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 148px;
+  }
+  
+  .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 1px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 19px;
+    width: 148px;
+  }
+  
+  .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 42px;
+    width: 149px;
+  }
+  
+  .overlap {
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 59px;
+    width: 149px;
+  }
+  
+  .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 149px;
+  }
+  
+  .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 8px;
+    font-weight: 400;
+    left: 41px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 19px;
+    width: 108px;
+  }
+  
+  .footer-servicios {
+    height: 14px;
+    right: 90px;
+    position: absolute;
+    top: 40px;
+    width: 49px;
+  }
+  
+  .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Josefin Sans-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400; 
+    left: -10px;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 65px;
+  }
+  
+  .address {
+    height: 87px;
+    left: 27px;
+    position: absolute;
+    top: 120px;
+    width: 210px;
+  }
+  
+  .ohiggins-segundo {
+    color: #ffffff;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-size: 11.8px;
+    font-weight: 300;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 15px;
+    position: absolute;
+    top: 0;
+    width: 210px;
+  }
+  
+  .footer .logo {
+    height: auto;
+    width: 250px;
+    left: 10px;
+    position: absolute;
+  }
+
+  /* Styles for tablet devices */
+@media (max-width: 768px) {
+  .logomenu {
+    max-width: 200px; /* Shrink the logo to a maximum of 200px */
+  }
+  .copyright {
+    font-size: 16px; /* Slightly smaller font for the copyright text */
+  }
+  /* Increase font size for other elements if needed */
+}
+
+@media (max-width: 576px) {
+  .logomenu {
+    max-width: 150px; /* Shrink the logo further for smaller screens */
+  }
+  .copyright {
+    font-size: 14px; /* Smaller font size for mobile */
+  }
+  /* Increase font size for other elements if needed */
+}
+
+
+
+
+
+
+  

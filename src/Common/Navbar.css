@@ -1,0 +1,79 @@
+/* Default styles for your navbar */
+.navbar {
+  width: 100%; /* Set your desired fixed width */
+  height: 99px; /* Set your desired height */
+  background-color: #fbe3e3; /* Set your background color */
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: background-color 0.3s ease;
+  z-index: 999;
+}
+
+.navbar.menu-open {
+  background-color: #f6c8c7; /* Change to your desired background color */
+}
+  
+.burger-menu {
+  height: 25px;
+  width: 40px;
+  right: 40px;
+  top: 30%;
+  position: absolute;
+  display: flex; /* Add this to make the child elements visible */
+  flex-direction: column; /* Stack the child elements vertically */
+  justify-content: space-between; /* Space the child elements evenly */
+  cursor: pointer; /* Add cursor pointer to indicate clickability */
+  z-index: 999;
+}
+  
+.line {
+  background-color: #ad6161; /* Set the color of the lines */
+  height: 4px;
+  width: 30px; /* Add a width to make the lines visible */
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.line-2 {
+  transform: translateY(6px)
+}
+
+.line-1-open {
+  transform: translateY(14px) rotate(45deg);
+}
+
+.line-2-open {
+  opacity: 0;
+  
+}
+
+.line-3-open {
+  transform: translateY(-7px) rotate(-45deg);
+}
+  
+  .logo {
+    width: 215px;
+    height: auto;
+    top: 0;
+    left: 10px;
+    position: absolute;
+    transition: opacity 0.3s ease; 
+  }
+
+  .navbar.menu-open .logo {
+    opacity: 0; /* Set opacity to 0 when the menu is open */
+  }
+
+  .line-2 {
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+  }
+
+  @media screen and (min-width: 769px) {
+  }
+

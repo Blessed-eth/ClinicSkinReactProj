@@ -1,0 +1,13 @@
+.image {
+    height: 250px;
+    width: 395px;
+  }
+  
+  .image .screen-shot {
+    height: 250px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 390px;
+  }
+  
