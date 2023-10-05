@@ -1,13 +1,22 @@
-.image {
-    height: 250px;
-    width: 395px;
-  }
-  
-  .image .screen-shot {
-    height: 250px;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 390px;
-  }
-  
+  .imagecontainer{
+      position: relative;
+      width: 60vw;
+      height: 60vh;
+      border-radius: 15px;
+      margin: 0 auto;
+      margin-top: 10vh;
+      overflow: hidden;;
+    }
+    
+    .image {
+      display: fill;
+      height: auto;
+      width: 100%;
+      
+    }
+
+    .facial2 {
+      height: 80%;
+      width: 100%;
+      
+    }

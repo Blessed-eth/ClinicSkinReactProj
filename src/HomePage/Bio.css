@@ -3,8 +3,9 @@
     font-family: 'Cormorant';
     color: #000;
     position: relative;
-    top: 750px;
-    width: 800px;
+    top: 90vh;
+    text-align: left;
+    width: 70vw;
     margin: 0 auto;
 
 }

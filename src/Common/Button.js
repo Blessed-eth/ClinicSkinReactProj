@@ -1,18 +1,19 @@
 import React from "react";
 import "./Button.css";
+import { Link } from 'react-router-dom';
 
-export const Button: React.FC = () => {
+export const Button = () => {
   return (
-    <div className="box">
+    <div className="button-container">
       <div className="botones">
-        <div className="iniciar-sesion">
-          <div className="group">
-            <div className="overlap-group">
-              <div className="text-wrapper">Iniciar Sesión</div>
+      
+            <div className="button">
+            <Link className="iniciar-sesion">Iniciar Sesion</Link>
             </div>
-          </div>
-        </div>
-        <img className="reservar" alt="Reservar" src="reservar.png" />
+            <div className="button">
+            <Link className="reservar">Reservar</Link>
+            </div>
+      
       </div>
     </div>
   );

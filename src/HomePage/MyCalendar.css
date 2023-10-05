@@ -1,0 +1,8 @@
+.calendar-container {
+    margin: 0 auto;
+    position: aboslute;
+    margin-top: 20vh;
+    width: 80%; /* Adjust the width as needed */
+    height: 60vh;
+    /* Other styles as needed */
+  }

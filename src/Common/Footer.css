@@ -36,7 +36,7 @@
     height: 50px;
     left: 40px;
     position: relative;
-    top: 90px;
+    top: 85px;
     width: 200px;
     overflow: hidden;
   }
@@ -167,7 +167,7 @@
     height: 87px;
     left: 27px;
     position: absolute;
-    top: 120px;
+    top: 130px;
     width: 210px;
   }
   
@@ -189,6 +189,7 @@
     width: 250px;
     left: 10px;
     position: absolute;
+    top: -15px;
   }
 
   /* Styles for tablet devices */

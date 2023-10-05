@@ -10,7 +10,7 @@ import './Homepage.css';
 import { MainMenu } from './MainMenu';
 import ScrollingText from './ScrollingText';
 import { ImageContainer } from './ImageContainer';
-import Calendar  from './Calendar';
+import MyCalendar from './Calendar';
 
 
 function HomePage() {
@@ -22,7 +22,7 @@ function HomePage() {
       <MainMenu />
       <ScrollingText /> {/* Add the ScrollingText component */}
       <ImageContainer />
-      <Calendar />
+      <MyCalendar />
 
     </div>
   );

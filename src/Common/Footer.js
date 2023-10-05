@@ -4,8 +4,27 @@ import logo from "../assets/logo.png";
 import instagramIcon from "../assets/instagram white.png";
 import facebookIcon from "../assets/facebook-circular-logo-white.png";
 import whatsappIcon from "../assets/whatsapp white.png";
+import { Link, useNavigate } from 'react-router-dom';
+
+// Define ScrollToTopButton component here
+function ScrollToTopButton() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // This provides a smooth scrolling effect
+    });
+  };
+
+  return (
+    <Link to="/" onClick={scrollToTop}>
+      <img className="logo" alt="Logo" src={logo} />
+    </Link>
+  );
+}
 
 export const Footer = () => {
+  const navigate = useNavigate();
+
   return (
     <footer className="footer">
       <div className="copyright">
@@ -45,7 +64,7 @@ export const Footer = () => {
           La Araucanía, Chile
         </p>
       </div>
-      <img className="logo" alt="Logo" src={logo} />
+      <ScrollToTopButton /> {/* Include the ScrollToTopButton component */}
     </footer>
   );
-};
+}

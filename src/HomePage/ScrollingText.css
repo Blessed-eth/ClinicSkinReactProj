@@ -1,39 +1,58 @@
 /* ScrollingText.css */
+.scrolling-text-container {
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+  left: 0vw;
+  overflow: hidden;
+}
+
 .scrolling-text {
-  position: fixed;
-  bottom: 0;
-  left: -100%; /* Start off-screen to the left */
-  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-size: 2rem;
+  font-weight: bold;
+  overflow: hidden;
+  position: relative;
+}
+
+.scrolling-text1,
+.scrolling-text2 {
   animation-duration: 5s; /* Adjust the duration as needed */
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  opacity: 0; /* Hide initially */
-}
-
-.animate-forward {
-  animation-name: slideRight;
-  opacity: 1;
-}
-
-.animate-backward {
-  animation-name: slideLeft;
-  opacity: 1;
-}
-
-@keyframes slideRight {
-  from {
-    left: -100%;
-  }
-  to {
-    left: 0;
-  }
+  opacity: 0.12;
+  font-family: 'Cormorant';
+  white-space: nowrap;
+  line-height: 300px;
+  font-size: 300px;
 }
 
 @keyframes slideLeft {
   from {
-    left: 0;
+    transform: translateX(10vw);
   }
   to {
-    left: -100%;
+    transform: translateX(-20vw);
   }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-50vw);
+  }
+  to {
+    transform: translateX(-10vw);
+  }
+}
+
+/* Apply the animation to the text elements */
+.scroll-text1 {
+  animation: slideLeft;
+}
+
+.scroll-text2 {
+  animation: slideRight;
 }

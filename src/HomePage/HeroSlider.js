@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
 import './HeroSlider.css';
+import Banner1 from '../assets/clinicskinbanner1.png';
+import Banner2 from '../assets/clinicskinbanner2.png';
 
 const HeroSlider = () => {
   useEffect(() => {
@@ -12,21 +14,11 @@ const HeroSlider = () => {
       autoplay: {
         delay: 3000,
       },
-      effect: 'coverflow',
+      effect: 'slide', // Change effect to 'slide'
       grabCursor: true,
       centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 0,
-        stretch: 80,
-        depth: 200,
-        modifier: 1,
-        slideShadows: false,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+      slidesPerView: 1, // Change slidesPerView to 1
+
     });
   }, []);
 
@@ -34,26 +26,13 @@ const HeroSlider = () => {
     <div className="swiper-container">
       <div className="swiper-wrapper">
         <div className="swiper-slide">
-          <img
-            src="http://marveltheme.com/tf/html/appai/appai/img/app-screenshots/10.jpg"
-            alt=""
-          />
+          <img className="banner1" src={Banner1} alt="" />
         </div>
         <div className="swiper-slide">
-          <img
-            src="http://marveltheme.com/tf/html/appai/appai/img/app-screenshots/11.jpg"
-            alt=""
-          />
-        </div>
-        <div className="swiper-slide">
-          <img
-            src="http://marveltheme.com/tf/html/appai/appai/img/app-screenshots/12.jpg"
-            alt=""
-          />
+          <img className="banner2" src={Banner2} alt="" />
         </div>
       </div>
-      <div className="swiper-button-prev"></div>
-      <div className="swiper-button-next"></div>
+
     </div>
   );
 };
