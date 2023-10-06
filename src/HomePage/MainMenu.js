@@ -12,20 +12,28 @@ export const MainMenu = () => {
       <div className="menus">
         <div className="image-grid">
         <Link to="/ManosYPies" className="image-button">
+          <div className="imgbutton-container">
             <img className="pedicura" src={Pedicura} alt="Pedicura" />
+            </div>
             <div className="text-wrapper">Manicure y Pedicure</div>
           </Link>
           <Link to="/Faciales" className="image-button">
+          <div className="imgbutton-container">
             <img className="faciales" src={Faciales} alt="Tratamientos faciales" />
+            </div>
             <div className="text-wrapper">Tratamientos Faciales</div>
           </Link>
           <Link to="/Eyesbrows" className="image-button">
+          <div className="imgbutton-container">
             <img className="cejas" src={Cejas} alt="Pestañas y cejas" />
+            </div>
             <div className="text-wrapper">Pestañas y Cejas</div>
           </Link>
           <Link to="/Corporales"className="image-button">
+            <div className="imgbutton-container">
             <img className="corporales" src={Corporales} alt="Tratamientos corporales" />
-            <div className="text-wrapper">Tratamientos Corporales y Masajes</div>
+            </div>
+            <div className="text-wrapper">Tratamientos Corporales</div>
           </Link>
         </div>
       </div>

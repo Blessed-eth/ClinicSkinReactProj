@@ -6,13 +6,16 @@ export const Button = () => {
   return (
     <div className="button-container">
       <div className="botones">
-      
-            <div className="button">
-            <Link className="iniciar-sesion">Iniciar Sesion</Link>
+        <Link className="button-1">
+            <div className="button1">
+            <div className="iniciar-sesion">Iniciar Sesion</div>
             </div>
-            <div className="button">
-            <Link className="reservar">Reservar</Link>
+        </Link>
+        <Link className="button-2">
+            <div className="button2">
+            <div className="reservar">Reservar</div>
             </div>
+        </Link>
       
       </div>
     </div>

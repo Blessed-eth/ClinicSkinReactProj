@@ -1,45 +1,43 @@
 /* ScrollingText.css */
-.scrolling-text-container {
+.outer-container {
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   position: absolute;
-  left: 0vw;
   overflow: hidden;
 }
 
-.scrolling-text {
+.scrolling-text-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-  font-size: 2rem;
+  justify-content: center;
+  height: 100%;
   font-weight: bold;
-  overflow: hidden;
   position: relative;
+  width: 200%; /* Adjust the width for horizontal scrolling */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical overflow */
 }
 
 .scrolling-text1,
 .scrolling-text2 {
-  animation-duration: 5s; /* Adjust the duration as needed */
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  opacity: 0.12;
-  font-family: 'Cormorant';
-  white-space: nowrap;
-  line-height: 300px;
-  font-size: 300px;
+  font-family: 'Cormorant', sans-serif; /* Add a generic fallback font */
+  font-size: 30rem;
+  opacity: 0.2;
 }
 
-@keyframes slideLeft {
+/* Keep your keyframes animation if desired */
+@keyframes slideInLeft {
   from {
-    transform: translateX(10vw);
+    transform: translateX(5vw);
   }
   to {
-    transform: translateX(-20vw);
+    transform: translateX(-10vw);
   }
 }
 
-@keyframes slideRight {
+@keyframes slideInRight {
   from {
     transform: translateX(-50vw);
   }
@@ -47,12 +45,13 @@
     transform: translateX(-10vw);
   }
 }
+  
 
-/* Apply the animation to the text elements */
-.scroll-text1 {
-  animation: slideLeft;
+@media screen and (max-width: 768px) {
+  
 }
 
-.scroll-text2 {
-  animation: slideRight;
+
+@media screen and (max-width: 480px) {
+
 }

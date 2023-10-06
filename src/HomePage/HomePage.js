@@ -11,7 +11,10 @@ import { MainMenu } from './MainMenu';
 import ScrollingText from './ScrollingText';
 import { ImageContainer } from './ImageContainer';
 import MyCalendar from './Calendar';
+import { registerLocale } from 'react-datepicker';
+import es from 'date-fns/locale/es';
 
+registerLocale('es', es);
 
 function HomePage() {
   const screenWidth = useWindowWidth();

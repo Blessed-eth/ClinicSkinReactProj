@@ -24,7 +24,7 @@ function Navbar() {
           <div className={`line line-2 ${isMenuOpen ? 'line-2-open' : ''}`} />
           <div className={`line line-3 ${isMenuOpen ? 'line-3-open' : ''}`} />
         </div>
-        <Link to="HomePage" className="logo-link">
+        <Link to="/" className="logo-link">
           <img className="logo" alt="Logo" src={logo} />
         </Link>
       </div>

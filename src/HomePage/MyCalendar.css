@@ -6,3 +6,24 @@
     height: 60vh;
     /* Other styles as needed */
   }
+
+  @media (max-width: 768px) {
+    .calendar-container {
+      margin: 0 auto;
+      position: aboslute;
+      width: 80%; /* Adjust the width as needed */
+      height: 50vh;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .calendar-container {
+      margin: 0 auto;
+      position: absolute;
+      margin-top: 5vh;
+      height: 80vh;
+      width: 90vw; /* Adjust the width as needed */
+      left: 5vw;
+    }
+
+  }

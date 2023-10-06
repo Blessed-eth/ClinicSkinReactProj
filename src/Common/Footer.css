@@ -1,14 +1,14 @@
    .footer {
     background-color: #cc9b9a;
-    height: 210px;
+    height: 30vh;
     left: 0;
     position: absolute;
-    top: 2500px;
+    top: 350vh;
     bottom: 0;
     width: 100%;
   
-  }
-  
+  }  
+
   .copyright {
     height: 20px;
     position: absolute;
@@ -66,7 +66,7 @@
   .text-wrapper-2 {
     color: #ffffff;
     font-family: "Josefin Sans-Regular", Helvetica;
-    font-size: 8px;
+    font-size: 1em;
     font-weight: 400;
     left: 1px;
     letter-spacing: 0;
@@ -80,7 +80,7 @@
   .text-wrapper-3 {
     color: #ffffff;
     font-family: "Josefin Sans-Regular", Helvetica;
-    font-size: 8px;
+    font-size: 1em;
     font-weight: 400;
     left: 1px;
     letter-spacing: 0;
@@ -89,12 +89,13 @@
     text-align: right;
     top: 19px;
     width: 148px;
+    margin-top: 1em;
   }
   
   .text-wrapper-4 {
     color: #ffffff;
     font-family: "Josefin Sans-Regular", Helvetica;
-    font-size: 8px;
+    font-size: 1em;
     font-weight: 400;
     left: 0;
     letter-spacing: 0;
@@ -103,6 +104,7 @@
     text-align: right;
     top: 42px;
     width: 149px;
+    margin-top: 1em;
   }
   
   .overlap {
@@ -116,7 +118,7 @@
   .text-wrapper-5 {
     color: #ffffff;
     font-family: "Josefin Sans-Regular", Helvetica;
-    font-size: 8px;
+    font-size: 1em;
     font-weight: 400;
     left: 0;
     letter-spacing: 0;
@@ -125,12 +127,13 @@
     text-align: right;
     top: 0;
     width: 149px;
+    margin-top: 1em;
   }
   
   .text-wrapper-6 {
     color: #ffffff;
     font-family: "Josefin Sans-Regular", Helvetica;
-    font-size: 8px;
+    font-size: 1em;
     font-weight: 400;
     left: 41px;
     letter-spacing: 0;
@@ -139,6 +142,7 @@
     text-align: right;
     top: 19px;
     width: 108px;
+    margin-top: 1em;
   }
   
   .footer-servicios {
@@ -152,9 +156,9 @@
   .text-wrapper-7 {
     color: #ffffff;
     font-family: "Josefin Sans-Regular", Helvetica;
-    font-size: 15px;
+    font-size: 1.2em;
     font-weight: 400; 
-    left: -10px;
+    left: -20px;
     letter-spacing: 0;
     line-height: 15px;
     position: absolute;
@@ -200,17 +204,97 @@
   .copyright {
     font-size: 16px; /* Slightly smaller font for the copyright text */
   }
+
+    .footer {
+    background-color: #cc9b9a;
+    height: 20vh;
+    left: 0;
+    position: absolute;
+    top: 240vh;
+    bottom: 0;
+    width: 100%;
+  
+     }
   /* Increase font size for other elements if needed */
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
   .logomenu {
     max-width: 150px; /* Shrink the logo further for smaller screens */
   }
   .copyright {
     font-size: 14px; /* Smaller font size for mobile */
   }
-  /* Increase font size for other elements if needed */
+
+  .footer {
+    background-color: #cc9b9a;
+    height: 30vh;
+    left: 0;
+    position: absolute;
+    top: 380vh;
+    bottom: 0;
+    width: 100%;
+  
+     }
+
+     .footer-menu {
+      height: 87px;
+      right: 5vw;
+      position: absolute;
+      top: 90px;
+      width: 159px;
+    }
+
+    .footer-servicios {
+      height: 14px;
+      right: 5vw;
+      position: absolute;
+      top: 40px;
+      width: 49px;
+    }
+
+    .address {
+      height: 87px;
+      left: 27px;
+      position: absolute;
+      top: 130px;
+      width: 40vw;
+    }
+
+    .ohiggins-segundo {
+      color: #ffffff;
+      font-family: "Josefin Sans-Light", Helvetica;
+      font-size: 11.8px;
+      font-weight: 300;
+      left: 0;
+      letter-spacing: 0;
+      line-height: 15px;
+      position: absolute;
+      top: 0;
+      width: 40vw;
+    }
+
+    .social-media-icons {
+      height: 50px;
+      left: 1vw;
+      position: relative;
+      top: 85px;
+      width: 200px;
+      overflow: hidden;
+    }
+
+    .copyright {
+      height: 20px;
+      position: absolute;
+      bottom: 1vh;
+      width: 300px;
+      left: 0; /* Reset the left position */
+      right: 0; /* Reset the right position */
+      margin-left: auto; /* Center horizontally using auto margin */
+      margin-right: auto; /* Center horizontally using auto margin */
+      text-align: center;
+    }
+
 }
 
 

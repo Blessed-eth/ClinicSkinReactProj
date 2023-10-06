@@ -9,3 +9,31 @@
     margin: 0 auto;
 
 }
+
+@media screen and (max-width: 768px){
+    .Biotext {
+        font-size: 20px;
+        font-family: 'Cormorant';
+        color: #000;
+        position: relative;
+        top: 30vh;
+        text-align: left;
+        width: 70vw;
+        margin: 0 auto;
+    
+    } 
+}
+
+@media screen and (max-width: 480px){
+    .Biotext {
+        font-size: 20px;
+        font-family: 'Cormorant';
+        color: #000;
+        position: relative;
+        top: 20vh;
+        text-align: left;
+        width: 90vw;
+        margin: 0 auto;
+        height: 50vh;    
+    }
+}

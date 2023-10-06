@@ -29,11 +29,8 @@ const SideMenu = ({ isOpen, onClose }) => {
         <Link to="/Corporales" className="menu4" onClick={handleLinkClick}>
           Tratamientos Corporales
         </Link>
-        <Link to="/Faciales" className="menu4" onClick={handleLinkClick}>
+        <Link to="/Faciales" className="menu5" onClick={handleLinkClick}>
           Tratamientos Faciales
-        </Link>
-        <Link to="/Agendar" className="menu5" onClick={handleLinkClick}>
-          Agendar
         </Link>
         <Link to="/MiCuenta" className="menu6" onClick={handleLinkClick}>
           Mi Cuenta

@@ -13,10 +13,65 @@
       height: auto;
       width: 100%;
       
+      
     }
 
     .facial2 {
       height: 80%;
       width: 100%;
+      top: -220px;
+      position: relative;
+    }
+
+    @media (max-width: 768px) {
+      .imagecontainer{
+        position: relative;
+        width: 60vw;
+        height: 40vh;
+        border-radius: 15px;
+        margin: 0 auto;
+        margin-top: 10vh;
+        overflow: hidden;;
+      }
       
+      .image {
+        display: fill;
+        height: auto;
+        width: 100%;
+      }
+  
+      .facial2 {
+        height: 80%;
+        width: 100%;
+        top: -220px;
+        position: relative;
+      }
+    }
+  
+    @media screen and (max-width: 480px) {
+      .imagecontainer{
+        position: relative;
+        width: 80vw;
+        height: 40vh;
+        border-radius: 15px;
+        margin: 0 auto;
+        margin-top: 10vh;
+        overflow: hidden;
+        display: flex;
+      }
+      
+      .image {
+        margin-top: 20vh;
+        max-height: 100%;
+        max-width: 100%;
+        width: 80vw;
+        height: 40vh;
+      }
+  
+      .facial2 {
+        height: 100%;
+        width: auto;
+        position: relative;
+      }
+  
     }

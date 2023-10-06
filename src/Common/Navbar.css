@@ -7,12 +7,14 @@
   position: fixed;
   top: 0;
   transition: background-color 0.3s ease;
-  z-index: 999;
+  z-index: 99;
 }
 
 .navbar.menu-open {
   background-color: #f6c8c7; /* Change to your desired background color */
-  
+  position: fixed;
+  margin-left: 60vw;
+  width: 40vw;
 }
   
 .burger-menu {
@@ -25,7 +27,7 @@
   flex-direction: column; /* Stack the child elements vertically */
   justify-content: space-between; /* Space the child elements evenly */
   cursor: pointer; /* Add cursor pointer to indicate clickability */
-  z-index: 999;
+  z-index: 99;
 }
   
 .line {
@@ -73,8 +75,20 @@
   }
   
   @media screen and (max-width: 768px) {
+    .navbar.menu-open {
+      background-color: #f6c8c7; /* Change to your desired background color */
+      position: fixed;
+      margin-left: 80vw;
+      width: 20vw;
+    }
   }
 
-  @media screen and (min-width: 769px) {
-  }
+  @media screen and (max-width: 480px) {
+    .navbar.menu-open {
+      background-color: #f6c8c7; /* Change to your desired background color */
+      position: fixed;
+      margin-left: 80vw;
+      width: 20vw;
+    }
 
+  }
