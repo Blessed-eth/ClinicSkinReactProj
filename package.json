@@ -7,8 +7,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "dev": "parcel",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
   },
   "dependencies": {
     "prop-types": "^15.8.1",
