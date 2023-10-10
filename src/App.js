@@ -17,15 +17,18 @@ import Bio from './HomePage/Bio';
 function App() {
   return (
     <Router>
-      <div>
-        <Navbar /> {/* Display the Navbar on every page */}
-        <Routes>
-          <Route path="/" element={<HomePage />}>
-            {/* Place the <Bio /> component within the homepage route */}
-
-          </Route>
-          {/* Add more routes for other pages */}
-        </Routes>
+      <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
+      <Navbar /> {/* Display the Navbar on every page */}
+        <div className="content-container">
+          
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="ManosYPies" element={<ManosYPies />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/corporales" element={<Corporales />} />
+            <Route path="/depilacion" element={<Depilacion />} />
+          </Routes>
+        </div>
         <Footer /> {/* Display the Footer on every page */}
       </div>
     </Router>
@@ -33,3 +36,4 @@ function App() {
 }
 
 export default App;
+

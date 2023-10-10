@@ -19,14 +19,15 @@ registerLocale('es', es);
 function HomePage() {
   const screenWidth = useWindowWidth();
   return (
-    <div>
+    <div className="homepage-container">
+      <div className="bio-text-container">
       <HeroSlider />
-      <Bio />
+        <Bio />
+      </div>
       <MainMenu />
       <ScrollingText /> {/* Add the ScrollingText component */}
       <ImageContainer />
       <MyCalendar />
-
     </div>
   );
 }

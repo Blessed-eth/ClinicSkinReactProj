@@ -1,8 +1,8 @@
 .calendar-container {
   margin: 0 auto;
-  position: absolute;
+  position: relative;
+  bottom: 30px;
   text-align: center;
-  left: 10%;
   background: rgba(255, 255, 255, 0.15); /* Background color with transparency */
   backdrop-filter: blur(10px); /* Apply blur effect to background */
   border: 1px solid rgba(255, 255, 255, 0.18); /* Optional border for better visibility */
@@ -159,12 +159,13 @@
   background-color: #e6e6e6;
 }
 
-@media (max-width: 768px) {
-  .calendar-container {
+  /* iPad Air (landscape) */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+.calendar-container {
+    top: 10vh;
     margin: 0 auto;
     position: absolute;
     text-align: center;
-    left: 10%;
     background: rgba(255, 255, 255, 0.15); /* Background color with transparency */
     backdrop-filter: blur(10px); /* Apply blur effect to background */
     border: 1px solid rgba(255, 255, 255, 0.18); /* Optional border for better visibility */
@@ -175,8 +176,8 @@
   
   
   .react-calendar {
-    left: 18%;
-    top: 10vh;
+    left: 25%;
+    top: 8vh;
     position: absolute;
     width: 350px;
     max-width: 100%;
@@ -185,14 +186,13 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.125em;
   }
-}
+  }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 768px) { /* Tablet version */
   .calendar-container {
-    height: 50vh;
-    width: 85vw;
+    
     margin: 0 auto;
-    position: absolute;
+    position: relative;
     text-align: center;
     background: rgba(255, 255, 255, 0.15); /* Background color with transparency */
     backdrop-filter: blur(10px); /* Apply blur effect to background */
@@ -200,7 +200,34 @@
     padding: 20px; /* Add padding for content */
     border-radius: 10px; /* Rounded corners for the container */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-    left: 8vw;
+  }
+  
+  
+  .react-calendar {
+    top: 8vh;
+    position: absolute;
+    width: 350px;
+    max-width: 100%;
+    background: white;
+    border: 1px solid #a0a096;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+    left: 10vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .calendar-container {
+    margin: 0 auto;
+    top: 30vh;
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15); /* Background color with transparency */
+    backdrop-filter: blur(10px); /* Apply blur effect to background */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Optional border for better visibility */
+    padding: 20px; /* Add padding for content */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
   }
   
   

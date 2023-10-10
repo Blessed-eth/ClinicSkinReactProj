@@ -17,22 +17,22 @@ const SideMenu = ({ isOpen, onClose }) => {
   return (
     <div className={menuClassName}>
       <div className="sidemenu-container">
-        <Link to="/ManosYPies" className="menu1" onClick={handleLinkClick}>
+        <Link to="/ManosYPies" className="menu1 text-decoration-none" onClick={handleLinkClick}>
           Manos y Pies
         </Link>
-        <Link to="/Eyebrows" className="menu2" onClick={handleLinkClick}>
+        <Link to="/Eyebrows" className="menu2 text-decoration-none" onClick={handleLinkClick}>
           Eyebrows y Eyelashes
         </Link>
-        <Link to="/Depilacion" className="menu3" onClick={handleLinkClick}>
+        <Link to="/Depilacion" className="menu3 text-decoration-none" onClick={handleLinkClick}>
           Depilación
         </Link>
-        <Link to="/Corporales" className="menu4" onClick={handleLinkClick}>
+        <Link to="/Corporales" className="menu4 text-decoration-none" onClick={handleLinkClick}>
           Tratamientos Corporales
         </Link>
-        <Link to="/Faciales" className="menu5" onClick={handleLinkClick}>
+        <Link to="/Faciales" className="menu5 text-decoration-none" onClick={handleLinkClick}>
           Tratamientos Faciales
         </Link>
-        <Link to="/MiCuenta" className="menu6" onClick={handleLinkClick}>
+        <Link to="/MiCuenta" className="menu6 text-decoration-none" onClick={handleLinkClick}>
           Mi Cuenta
         </Link>
           <img className="logomenu" alt="clinic skin logo" src={logo2} />

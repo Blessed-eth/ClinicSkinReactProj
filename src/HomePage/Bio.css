@@ -1,39 +1,53 @@
+
 .Biotext {
     font-size: 20px;
     font-family: 'Cormorant';
     color: #000;
     position: relative;
-    top: 90vh;
     text-align: left;
     width: 70vw;
     margin: 0 auto;
+    margin-top: 60px;
+} 
 
-}
-
-@media screen and (max-width: 768px){
+/* iPad Air (landscape) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .Biotext {
         font-size: 20px;
         font-family: 'Cormorant';
         color: #000;
         position: relative;
-        top: 30vh;
+        top: 10vh;
+        text-align: left;
+        width: 70vw;
+        height: 10px;
+        margin: 0 auto;
+    } 
+       }
+
+@media screen and (max-width: 768px){ /* Tablet verison */
+    .Biotext {
+        font-size: 20px;
+        font-family: 'Cormorant';
+        color: #000;
+        position: absolute;
+        top: 5vh;
+        text-align: left;
+        width: 70vw;
+        margin: 0 auto;
+    } 
+}
+
+@media screen and (max-width: 480px){ /* mobile version */
+    .Biotext {
+        font-size: 20px;
+        font-family: 'Cormorant';
+        color: #000;
+        position: absolute;
+        top: 20vh;
         text-align: left;
         width: 70vw;
         margin: 0 auto;
     
-    } 
-}
-
-@media screen and (max-width: 480px){
-    .Biotext {
-        font-size: 20px;
-        font-family: 'Cormorant';
-        color: #000;
-        position: relative;
-        top: 20vh;
-        text-align: left;
-        width: 90vw;
-        margin: 0 auto;
-        height: 50vh;    
     }
 }

@@ -28,12 +28,16 @@
 
 [class^="menu"] {
 font-family: josefina-sans;
-font-size: 25px;
+font-size: 3vh;
 text-decoration: none;
 color: white;
-margin-top: 60px;
+margin-top: 7vh;
 text-align: center;
 z-index: 999;
+}
+
+a:hover {
+color: white;
 }
 
 .logomenu {

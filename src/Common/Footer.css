@@ -1,12 +1,10 @@
    .footer {
     background-color: #cc9b9a;
-    height: 30vh;
+    height: 240px;
+    position: relative;
     left: 0;
-    position: absolute;
-    top: 350vh;
     bottom: 0;
     width: 100%;
-  
   }  
 
   .copyright {
@@ -30,6 +28,7 @@
     position: absolute;
     white-space: nowrap;
     width: 140px;
+    
   }
   
   .social-media-icons {
@@ -39,6 +38,7 @@
     top: 85px;
     width: 200px;
     overflow: hidden;
+    display: none;
   }
 
    .social-media-icons a {
@@ -196,8 +196,28 @@
     top: -15px;
   }
 
-  /* Styles for tablet devices */
-@media (max-width: 768px) {
+  /* iPad Air (landscape) */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .logomenu {
+      max-width: 200px; /* Shrink the logo to a maximum of 200px */
+    }
+    .copyright {
+      font-size: 16px; /* Slightly smaller font for the copyright text */
+    }
+  
+      .footer {
+        background-color: #cc9b9a;
+        height: 30vh;
+        left: 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    
+       }
+      }
+
+
+@media (max-width: 768px) {   /* Styles for tablet devices */
   .logomenu {
     max-width: 200px; /* Shrink the logo to a maximum of 200px */
   }
@@ -206,35 +226,32 @@
   }
 
     .footer {
-    background-color: #cc9b9a;
-    height: 20vh;
-    left: 0;
-    position: absolute;
-    top: 240vh;
-    bottom: 0;
-    width: 100%;
+      background-color: #cc9b9a;
+      height: 30vh;
+      left: 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
   
      }
   /* Increase font size for other elements if needed */
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) {  /* Mobile version */
   .logomenu {
-    max-width: 150px; /* Shrink the logo further for smaller screens */
+    max-width: 200px; /* Shrink the logo to a maximum of 200px */
   }
   .copyright {
-    font-size: 14px; /* Smaller font size for mobile */
+    font-size: 16px; /* Slightly smaller font for the copyright text */
   }
 
-  .footer {
-    background-color: #cc9b9a;
-    height: 30vh;
-    left: 0;
-    position: absolute;
-    top: 380vh;
-    bottom: 0;
-    width: 100%;
-  
+    .footer {
+      background-color: #cc9b9a;
+      height: 240px;
+      left: 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
      }
 
      .footer-menu {

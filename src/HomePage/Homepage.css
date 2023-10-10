@@ -1,5 +1,99 @@
 html {
-height: 1000px;
-width: 100%;
-} 
+    height: 100%;
+    width: 100%;
+    } 
 
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Ensure the body takes up at least the full viewport height. */
+      margin: 0;
+    }
+    
+    
+    .bio-text-container {
+        height: 800px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        
+      }
+
+      /* iPad Air (landscape) */
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .bio-text-container {
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          position: relative;
+        }
+        
+        .Biotext {
+          font-size: 20px;
+          font-family: 'Cormorant';
+          color: #000;
+          text-align: left;
+          width: 70vw;
+          height: calc(60vw - 60px);
+          position: relative;
+        }
+  
+     }
+   
+    
+      @media screen and (max-width: 768px) {  /* Tablet version */
+
+        .homepage-container {
+          height: 3100px;
+        }
+        .bio-text-container {
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          position: relative;
+        }
+        
+        .Biotext {
+          font-size: 20px;
+          font-family: 'Cormorant';
+          color: #000;
+          text-align: left;
+          width: 70vw;
+          height: calc(60vw - 60px);
+          position: relative;
+        }
+    
+      }
+    
+      @media screen and (max-width: 480px) {  /* mobile version */
+
+        .homepage-container {
+          height: 3800px;
+        }
+        .bio-text-container {
+            height: 1400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          
+          .Biotext {
+            font-size: 20px;
+            font-family: 'Cormorant';
+            color: #000;
+            text-align: left;
+            width: 70vw;
+            margin: 10px auto;
+            position: relative;
+            
+          }
+    
+      }
+    

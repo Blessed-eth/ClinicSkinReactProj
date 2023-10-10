@@ -7,19 +7,15 @@
 
   }
   
+  a {
+    text-decoration: none;
+  }
     .button-container .botones {
     height: 112px;
     left: 0;
     position: relative;
     top: 0;
     width: 265px;
-
-  }
-
-  .button-1 {
-    text-decoration: none;
-  }
-  .button-2 {
     text-decoration: none;
   }
   
@@ -30,7 +26,6 @@
     display: flex;
     justify-content: center; /* Center horizontally */
      align-items: center; /* Center vertically */
-     
      background-color: #ffffff;
   }
   .button2 {
@@ -61,7 +56,18 @@
     color: #fff;
   }
 
-  @media (max-width: 768px) {
+   /* iPad Air (landscape) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .button-container {
+    height: 15vh;
+    left: 30%;
+    position: relative;
+    top: 70%;
+    width: 265px;
+  }
+}
+
+  @media (max-width: 768px) {  /* tablet version */
     .button-container {
       height: 25vh;
       left: 25%;
@@ -71,11 +77,11 @@
     }
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) { /* mobile verison */
 
     .button-container {
       height: 25vh;
-      left: 10vw;
+      left: 15%;
       position: fixed;
       top: 65%;
       width: 265px;

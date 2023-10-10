@@ -1,6 +1,6 @@
 import React from "react";
 import "./ImageCont.css";
-import Facial2 from '../assets/facial2.png';
+import Facial2 from '../assets/evaluacionpics/facial2.jpg';
 
 export const ImageContainer = () => {
   return (

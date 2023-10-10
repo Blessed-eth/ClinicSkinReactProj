@@ -1,0 +1,12 @@
+.back-arrow {
+  width: 5em;
+  height: auto; /* Adjust the height as needed */
+  cursor: pointer;
+  margin-top: 100px;
+  margin-left: 2vw; 
+  fill: rgb(206, 104, 104);
+}
+
+.back-arrow:hover {
+  fill: rgb(184, 119, 119);
+}

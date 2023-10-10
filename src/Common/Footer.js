@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import './Footer.css';
 import logo from "../assets/logo.png";
 import instagramIcon from "../assets/instagram white.png";
 import facebookIcon from "../assets/facebook-circular-logo-white.png";
@@ -26,7 +26,8 @@ export const Footer = () => {
   const navigate = useNavigate();
 
   return (
-    <footer className="footer">
+    
+    <footer className="footer mt-auto py-3">
       <div className="copyright">
         <div className="rights">
           2023 Clinic Skin Camila Carrasco. © Todos Los Derechos Reservados

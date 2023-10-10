@@ -9,8 +9,22 @@ body {
   font-family: Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .mainmenu {
   margin-top: 800px;
+  z-index: 5;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  
+}
+
+.menus {
+  position: relative;
+  margin: 0 auto;
 }
 
 .image-grid {
@@ -46,10 +60,12 @@ body {
   height: auto;
   transition: transform 0.3s ease-in-out; /* Add a smooth transition on hover */
   position: relative; /* Position the image absolutely within the button container */
+  text-decoration: none;
 }
 
 .image-button:hover img {
   transform: scale(1.05); /* Scale up the image on hover */
+  
   /* You can add other hover effects if desired */
 }
 
@@ -57,8 +73,16 @@ body {
   font-size: 1em;
   color: white;
   margin-top: 1vh;
-  
+  transition: transform 0.3s ease-in-out;
 }
+
+.image-button:hover .text-wrapper {
+  transform: scale(1.05); /* Scale up the image on hover */
+  text-decoration: none !important;
+  color: white;
+  /* You can add other hover effects if desired */
+}
+
 .image-button:nth-child(3) img {
   top: -20%;
 }
@@ -68,14 +92,57 @@ body {
   height: 110%;
 }
 
-@media screen and (max-width: 768px){
+/* iPad Air (landscape) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .mainmenu {
+    z-index: 5;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 20vh;
+    position: relative;
+  }
+  
+  .menus {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .text-wrapper {
+    font-size: 0.7em;
+    color: white;
+    margin-top: 1vh;
+    transition: transform 0.3s ease-in-out;
+  }
+     }
+
+@media screen and (max-width: 768px){  /* Tablet version */
+
+  .mainmenu {
+    top: 18vh;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;    
+  }
+  
+  .menus {
+    position: relative;
+    margin: 0 auto;
+  }
 }
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px){  /* Mobile Version */
   
-  .mainmenu {  
-  margin-top: 30vh;  
+  .mainmenu {
+    top: 0;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;    
+  }
+  
+  .menus {
+    position: relative;
+    margin: 0 auto;
   }
 
   .image-grid {

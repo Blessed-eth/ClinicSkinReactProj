@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   width: 100%;
+  background-color: #fff4f4;
 }
 .App {
   text-align: center;
@@ -12,6 +13,11 @@ body {
   pointer-events: none;
 }
 
+.content-container {
+  margin-top: 99px;
+  height: 100%;
+  
+}
 
 .navbar.menu-open ~ body {
   overflow: hidden;

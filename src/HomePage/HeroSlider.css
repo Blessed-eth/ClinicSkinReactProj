@@ -1,85 +1,105 @@
 /* Styles for desktop */
-.swiper-container {
+.slider-container {
   width: 100%;
-  height: 60vh;
-  position: absolute;
+  height: 80vh;
+  position: relative;
   left: 0;
-  overflow: hidden;
-  top: 100px;
+  
 }
 
-.swiper-slide {
+.slides {
+  display: flex; /* Add display: flex */
+  flex-direction: row; 
+  transition: transform 0.5s ease-in-out; /* Add smooth transition for sliding */
+}
+
+.slide {
+  flex: 0 0 100%; /* Set the width of each slide to 100% of the container */
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner1,
+.banner2, .banner3,
+.banner4, .banner5, 
+.banner6, .banner7  {
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  position: relative;
-  margin: 0 auto;
-}
-
-.banner1 {
-  position: relative;
-  width: 100%;
-  height: auto;
   margin: 0 auto;
   text-align: center;
-  top: -160px;
+  object-fit: cover; /* Use object-fit to control image sizing */
 }
 
-.banner2 {
-  position: relative;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  text-align: center;
-  top: -290px;
-}
-
-/* Media query for mobile devices (e.g., smartphones) */
-@media screen and (max-width: 768px) {
-  .swiper-container {
-    height: 30vh;
-    width: 100%; /* Set the width to 100% */
-    top: 10vh;
-    right: 0;
-    position: absolute;
-  }
-
-  .swiper-wrapper {
-    height: 100%;
+/* iPad Air (landscape) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .slider-container {
     width: 100%;
+    height: 60vh;
+    position: relative;
+    left: 0;
+    display: flex; /* Add display: flex */
+    transition: transform 0.5s ease-in-out; /* Add smooth transition for sliding */
+  }
+  
+  .slide {
+    flex: 0 0 100%; /* Set the width of each slide to 100% of the container */
+    height: 60vh;
+    overflow: hidden;
     position: relative;
   }
-
-  .swiper-slide {
-    height: 100%;
-    width: 100vw;
-    position: relative;
-  }
-
+  
   .banner1,
   .banner2 {
+    position: relative;
     width: auto;
     height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    object-fit: fill;
+  }
+     }
+
+
+@media screen and (max-width: 768px) { /* Tablet version */
+  .slider-container {
+    width: 100%;
+    height: 60vh;
     position: relative;
+    left: 0;
+    display: flex; /* Add display: flex */
+    transition: transform 0.5s ease-in-out; /* Add smooth transition for sliding */
+  }
+  
+  .slide {
+    flex: 0 0 100%; /* Set the width of each slide to 100% of the container */
+    height: 100%;
+    overflow:visible;
+    position: relative;
+  }
+  
+  .banner1,
+  .banner2 {
+    position: relative;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    object-fit: fill;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .swiper-container {
-    height: 30vh;
+@media screen and (max-width: 480px) { /* Mobile version */
+  .slider-container {
     width: 100%;
-    top: 12vh;
-    right: 0;
+    height: 600px;
     position: relative;
+    left: 0;
+    overflow: hidden;
   }
 
-  .swiper-wrapper {
-    height: 100%;
-    width: 100vw;
-    position: relative;
-  }
 
-  .swiper-slide {
+  .slide {
     height: 200%;
     position: relative;
   }

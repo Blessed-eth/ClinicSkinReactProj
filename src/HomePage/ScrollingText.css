@@ -1,7 +1,7 @@
-/* ScrollingText.css */
+/* Desktop version */
 .outer-container {
   width: 100vw;
-  height: 100vh;
+  height: 1000px;
   position: absolute;
   overflow: hidden;
 }
@@ -11,20 +11,25 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
   font-weight: bold;
   position: relative;
   width: 200%; /* Adjust the width for horizontal scrolling */
+  min-height: 100vh; /* Ensure the container is at least as tall as the viewport */
+  vertical-align: baseline;
+  margin: 0 auto;
+  max-height: 100%;
   white-space: nowrap; /* Prevent text from wrapping */
   overflow-x: scroll; /* Enable horizontal scrolling */
-  overflow-y: hidden; /* Hide vertical overflow */
+  overflow-y:hidden;
+
 }
 
 .scrolling-text1,
 .scrolling-text2 {
-  font-family: 'Cormorant', sans-serif; /* Add a generic fallback font */
+  font-family: 'Cormorant', sans-serif;
   font-size: 30rem;
   opacity: 0.2;
+  line-height: 600px;
 }
 
 /* Keep your keyframes animation if desired */
@@ -45,13 +50,112 @@
     transform: translateX(-10vw);
   }
 }
+
+/* iPad Air (landscape) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+.outer-container {
+  width: 100vw;
+  height: 1000px;
+  position: absolute;
+  overflow: hidden;
+  margin-top: 10vh;
+}
+
+.scrolling-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  position: relative;
+  width: 200%; /* Adjust the width for horizontal scrolling */
+  min-height: 80vh; /* Ensure the container is at least as tall as the viewport */
+  vertical-align: baseline;
+  margin: 0 auto;
+  max-height: 100%;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  overflow-y:hidden;
+}
+
+.scrolling-text1,
+.scrolling-text2 {
+  font-family: 'Cormorant', sans-serif;
+  font-size: 30rem;
+  opacity: 0.2;
+  line-height: 600px;
+}
+    }
   
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {  /*tablet version */
+  .outer-container {
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 10vh;
+  }
   
+  .scrolling-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+    width: 200%; /* Adjust the width for horizontal scrolling */
+    min-height: 80vh; /* Ensure the container is at least as tall as the viewport */
+    vertical-align: baseline;
+    margin: 0 auto;
+    max-height: 100%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    overflow-y:hidden;
+  }
+  
+  .scrolling-text1,
+  .scrolling-text2 {
+    font-family: 'Cormorant', sans-serif;
+    font-size: 30rem;
+    opacity: 0.2;
+    line-height: 600px;
+  }
 }
 
 
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 480px) { /* mobile version */
+  .outer-container {
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 20vh;
+  }
+  
+  .scrolling-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+    width: 200%; /* Adjust the width for horizontal scrolling */
+    min-height: 80vh; /* Ensure the container is at least as tall as the viewport */
+    vertical-align: baseline;
+    margin: 0 auto;
+    max-height: 100%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    overflow-y:hidden;
+  }
+  
+  .scrolling-text1,
+  .scrolling-text2 {
+    font-family: 'Cormorant', sans-serif;
+    font-size: 30rem;
+    opacity: 0.2;
+    line-height: 600px;
+  }
 }
